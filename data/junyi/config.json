@@ -1,0 +1,15 @@
+{
+  "dataset": "bs_junyi",
+  "source_dataset": "junyi",
+  "source_root": "D:\\Study\\Python\\WorkSpace\\BS_CoLFA\\data\\junyi",
+  "format_note": "Converted from BS_CoLFA data/*.csv: response columns exercise,student,score -> student,exercise,score; q pairs -> dense Q matrix.",
+  "files": {
+    "response": "response.csv",
+    "q_matrix": "q_matrix.csv"
+  },
+  "info": {
+    "student_num": 10000,
+    "exercise_num": 835,
+    "knowledge_num": 835
+  }
+}

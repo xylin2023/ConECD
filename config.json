@@ -1,0 +1,24 @@
+﻿{
+  "defaults": {
+    "seed": 0,
+    "epochs": 30,
+    "patience": 3,
+    "min_delta": 0.0001,
+    "latent_dim": 32,
+    "q_layers": 1,
+    "response_layers": 2,
+    "batch_size": 2048,
+    "lr": 0.0005,
+    "weight_decay": 0.0005,
+    "response_self_loops": true,
+    "local_logit_cap": 1.0,
+    "tau": 0.5,
+    "gamma": 0.2
+  },
+  "datasets": {
+    "a0910": {"dataset": "a0910"},
+    "junyi": {"dataset": "junyi"},
+    "nips20": {"dataset": "nips20"},
+    "quanlang": {"dataset": "quanlang"}
+  }
+}
